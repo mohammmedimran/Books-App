@@ -38,7 +38,7 @@ const li = document.createElement('li');
 
     // append to DOM
     li.appendChild(bookName);
-    //li.appendChild(deleteBtn);
+    li.appendChild(deleteBtn);
     list.appendChild(li);
   });
 
